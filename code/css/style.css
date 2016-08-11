@@ -1,0 +1,41 @@
+@font-face {
+    font-family: MyriadProRegular;
+    src: url("../font/MyriadProRegular.eot");
+    src: url("../font/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../font/MyriadProRegular.woff") format("woff"),
+    url("../font/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+  font-family: MyriadProRegular;
+  background-color: #f5f5f4;
+}
+.page {
+  padding-left: 10cm;
+  padding-right: 10cm;
+}
+.student {
+  color: #5d5e5e;
+  font-family: Arial;
+}
+h1 {
+  font-family: Arial;
+  text-align: center;
+  text-transform: uppercase;
+}
+img {
+  width:250px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+a {
+  font-style: italic;
+}
+.pad {
+  padding-left: 1cm;
+}
+.link {
+  padding-bottom: 15px;
+}
