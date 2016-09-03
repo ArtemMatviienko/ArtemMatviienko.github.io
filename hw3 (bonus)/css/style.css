@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  background-image: url(../files/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*HEADER STARTS HERE*/
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 95px 0px 95px;
+  font-family: Tahoma;
+  font-size: 14px;
+}
+
+.logo {
+  padding-top: 75px;
+}
+
+.logo p {
+  padding-left: 55px;
+}
+
+.right {
+  padding-top: 75px;
+
+}
+
+.palm {
+  position: absolute;
+  padding-left: 140px;
+  opacity: 0.15;
+}
+
+/*MAIN CONTENT*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Tahoma;
+  font-size: 20px;
+}
+
+.container img {
+  width: 382px;
+  height: 262px;
+  padding: 15px 10px 0px 10px;
+  display: block;
+}
+
+.container p {
+  color: white;
+  padding: 10px 0px 40px 185px;
+  width: 85px;
+  height: 18px;
+}
+
+.Sri-Lanka p {
+  padding-left: 160px;
+}
+
+.Maldives p {
+  padding-left: 170px;
+}
+
+/*FOOTER*/
+
+.footer {
+  width: 265px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  font-family: Tahoma;
+}

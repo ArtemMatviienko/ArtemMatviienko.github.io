@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: MyriadProRegular;
+    src: url("../font/MyriadProRegular.eot");
+    src: url("../font/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../font/MyriadProRegular.woff") format("woff"),
+    url("../font/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-family: MyriadProRegular;
+}
+
+.nav {
+  height: 40px;
+  background-color: #515151;
+  margin-top: 40px;
+}
+
+.item {
+  display: inline-block;
+  width: 80px;
+  cursor: pointer;
+  vertical-align: middle;
+  padding:10px 25px 10px 25px;
+  color: white;
+}
+
+.item a {
+  display: block;
+  color: white;
+}
+
+.item:hover {
+  background-color: #474747;
+}
+
+.sidebar {
+  float: left;
+  width: 240px;
+  height: 240px;
+  margin-top: 40px;
+}
+
+.sb {
+  border: 1px solid #c8c8c8;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.sb:hover {
+  background-color: #f9f9f9;
+  color: black;
+  padding-left: 25px;
+}
+
+.sb a {
+  color: #656363;
+}
+
+.sb a:hover {
+  color: black;
+}
+
+.main {
+  clear: both;
+}
+
+img {
+  display: block;
+  border: 1px solid #c8c8c8;
+  float: right;
+  margin: 40px;
+  margin-right: 0;
+}
+
+.main p {
+  width: 600px;
+  margin-left: 320px;
+  color: #535353;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  height: 40px;
+  background-color: #e1e1e1;
+  color: black;
+  justify-content:space-between;
+  margin-top: 50px;
+}
+
+.ft {
+  display: inline-block;
+  width: 80px;
+  cursor: pointer;
+  vertical-align: middle;
+  padding:10px 25px 10px 25px;
+  color: black;
+}
+
+.ft a {
+  color: black;
+}
+
+.ft:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  padding:10px 25px 10px 25px;
+}
