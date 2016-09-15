@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../files/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 1000px;
+  height: 1022px;
+  background-color: white;
+  position: absolute;
+  z-index: -1;
+  margin-left: 175px;
+  box-shadow: 0px 3px 1px 1px rgba(0,0,0,0.6);
+}
+
+/*HEADER*/
+
+header {
+  height: 185px;
+  display: flex;
+  justify-content: space-between;
+  color: #128aa7;
+  font: 12px 'Tahoma';
+}
+
+.logo {
+  padding: 10px;
+}
+
+.logo img {
+  position: absolute;
+}
+
+.logo p {
+  padding: 105px 0px 0px 80px;
+}
+
+.contacts {
+  padding: 10px 0px 0px 150px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  margin: 5px;
+}
+
+.countries {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.countries a {
+  color: #128aa7;
+}
+
+.sri-lanka img {
+  padding-left: 12px;
+}
+
+/*END OF HEADER*/
+
+.photo {
+  height: 243px;
+}
+
+.photo img {
+  border-top: 1px solid #138aa7;
+  border-bottom: 1px solid #138aa7;
+}
+
+/*MENU*/
+
+nav {
+  width: 1000px;
+  height: 33px;
+  background-color: #343434;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+  font: 14px 'Tahoma';
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  height: 30px;
+  display: block;
+  list-style: none;
+}
+
+ul:after {
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}
+
+ul.menu li {
+  float: left;
+  position: relative;
+  padding-right: 45px;
+}
+
+ul.menu li a {
+  display: block;
+  padding: 8px 10px 8px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+ul.menu li a:hover {
+  background-color: black;
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  top: 33px;
+  left: 0;
+  background-color: #343434;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+}
+
+ul.submenu li {
+  display: block;
+  width: 120px;
+  background-color: #343434;
+}
+
+ul.submenu li a {
+  display: block;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+ul.submenu li a:hover {
+  text-decoration: underline;
+}
+
+ul.menu li:hover ul.submenu {
+  display: block;
+}
+
+/*END OF MENU*/
+
+/*MAIN CONTENT*/
+
+.container {
+  width: 1000px;
+  overflow: hidden;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  font: 14px 'Tahoma';
+  color: #424c43;
+}
+
+.left-column {
+  width: 200px;
+  padding: 20px;
+  float: left;
+  border: 1px solid #c7cacf;
+  background: #edeef0;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+
+.middle-column {
+  width: 600px;
+  float: left;
+  background: white;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+
+.right-column {
+  width: 200px;
+  padding: 20px;
+  float: left;
+  border: 1px solid #c7cacf;
+  background: #edeef0;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.container p {
+  padding: 2px;
+}
+
+/*END OF MAIN CONTENT*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+  color: white;
+  font: 12px 'Tahoma';
+}
